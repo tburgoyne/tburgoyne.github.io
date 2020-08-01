@@ -1,7 +1,7 @@
 
 
 #bibbase_header a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #bibbase_header i {
@@ -17,6 +17,7 @@
     font-style: bold;
     /* font-size: larger;*/
     color: white;
+    font-style: bold;
     text-shadow: 0px 0px 3px #474A59;
     border-radius: 4px 4px 4px 4px;
     -moz-border-radius: 4px 4px 4px 4px;
