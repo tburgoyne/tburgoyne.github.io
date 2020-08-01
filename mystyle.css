@@ -66,11 +66,11 @@ img.bibbase_icon:hover {
 .comment {
     font-size: smaller;
     font-style: italic;
-    color: gray;
+    color: white;
 }
 
 .recommended {
-    color: green;
+    color: white;
 }
 
 /* bootstrap */
