@@ -16,11 +16,15 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<script src="https://kit.fontawesome.com/bc57d02b5e.js" crossorigin="anonymous"></script>
 		
+		<!-- Include publications list -->
 		
-		<div w3-include-html="assets/publications/publications.html"></div>
-		
-	
-		
+		<script src="jquery.js"></script> 
+    		<script> 
+    		$(function(){
+      		$("#includedContent").load("assets/publications/publications.html"); 
+    		});
+    		</script> 
+
 		
 	</head>
 	<body>
@@ -120,9 +124,7 @@
 								<div class="container">
 									<h3>Publications</h3>
 <h4>Working/under submission</h4>
-
-									<div w3-include-html="content.html"></div> 
-					
+									<div id="includedContent"></div>
 									
 									<ol>
 <li><div id="Pinto2020"><em>Pinto AL, Rai RK, Hogg C and Burgoyne T</em> (2020), <strong>"Ciliary Feature Counter: A program for the Quantitative Assessment of Cilia to Diagnose Primary Ciliary Dyskinesia"</strong>, Diagnostics., jul, 2020. </div>
