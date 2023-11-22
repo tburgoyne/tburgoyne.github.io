@@ -2047,7 +2047,7 @@
 		}
 
 		.active, .collapsible:hover {
-  		background-color: #777;
+  		background-color: #CCCCCC;
 		}
 
 		.collapsible:after {
