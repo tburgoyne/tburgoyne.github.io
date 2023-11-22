@@ -2032,15 +2032,15 @@
 
 /* Collapse */
 		.collapsible {
-  		background-color: #999;
-  		color: white;
+  		background-color: #DEDEDE;
+  		color: #555;
   		cursor: pointer;
   		padding: 12px;
   		width: 100%;
   		border: none;
   		text-align: left;
   		outline: none;
-		border: 1px solid #888;
+		border: 1px solid #CCCCCC;
 		font-family: "Lato", sans-serif;
 		font-weight: bold;
   		font-size: 18px;
