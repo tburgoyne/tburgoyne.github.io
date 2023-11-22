@@ -2063,7 +2063,7 @@
 		}
 
 		.content {
-  		padding: 0 18px;
+  		padding: 0 25px;
   		max-height: 0;
   		overflow: hidden;
   		transition: max-height 0.2s ease-out;
